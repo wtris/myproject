@@ -1,0 +1,39 @@
+body{
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: solid;
+    color: black;
+}
+#title{
+font-size: 30px;
+text-align: center;
+}
+#img-div{
+height: 100%;
+}
+#image{
+display: block;
+margin: auto;
+height: 250px;
+width: 250px;
+border-radius: 100%;
+}
+#img-caption{
+text-align: center;
+text-transform: capitalize;
+font-size: 20px;
+}
+#tribute-info{
+text-align: justify;
+padding: 10px;
+}
+#tribute-link{
+text-decoration: none;
+margin: 10px;
+padding: 10px;
+font-style: italic;
+text-transform: capitalize;
+}
+a:hover{
+color: red;
+}
